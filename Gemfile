@@ -15,6 +15,9 @@ gem 'mysql2'
 # Webpack for rails
 gem 'webpacker', '~> 5.2'
 
+# i18n
+gem 'rails-i18n', '~> 6.0.0'
+
 gem 'bootsnap', require: false
 
 group :development, :test do
