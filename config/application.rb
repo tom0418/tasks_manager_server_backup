@@ -27,8 +27,7 @@ module TasksManagerServer
     config.time_zone = 'Tokyo'
 
     # Set i18n default locale
-    # rails-i18nを入れたらコメントイン
-    # config.i18n.default_locale = :ja
+    config.i18n.default_locale = :ja
 
     # Generate test framework
     config.generators do |g|
