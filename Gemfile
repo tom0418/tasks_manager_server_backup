@@ -36,4 +36,5 @@ group :development do
   gem 'spring-watcher-listen'
   gem "better_errors"
   gem "binding_of_caller"
+  gem 'bullet'
 end
