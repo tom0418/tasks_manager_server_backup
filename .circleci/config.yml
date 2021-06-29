@@ -32,7 +32,7 @@ jobs:
           command: |
             bundle install --jobs=4 --retry=3 --path vendor/bundle
       - save_cache:
-          path:
+          paths:
             - ./vendor/bundle
           key: gem-dependencies-{{ checksum "Gemfile.lock" }}
 
@@ -47,7 +47,7 @@ jobs:
           command: |
             yarn install && yarn bin
       - save_cache:
-          path:
+          paths:
             - ./node_modules
           key: node-modules-dependencies-{{ checksum "yarn.lock" }}
 
