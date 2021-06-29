@@ -42,3 +42,9 @@ group :development do
   gem 'binding_of_caller'
   gem 'bullet'
 end
+
+group :test do
+  gem 'rspec_junit_formatter'
+  gem 'shoulda-matchers'
+  gem 'simplecov', '~> 0.21', require: false
+end
